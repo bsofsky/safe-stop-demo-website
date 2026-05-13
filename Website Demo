@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAFE STOP - Traffic Stop Education</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800 antialiased">
+
+  <nav class="bg-white shadow-sm py-4 px-6 md:px-12 flex justify-between items-center sticky top-0 z-50">
+    <div class="flex items-center space-x-3">
+      <div class="text-2xl font-extrabold text-blue-900 tracking-wider">
+        SAFE<span class="text-red-600">STOP</span>
+      </div>
+    </div>
+    <div class="hidden md:flex space-x-6">
+      <a href="#driver-login" class="text-slate-600 hover:text-blue-700 font-medium transition">Driver Login</a>
+      <a href="#dmv-verification" class="text-slate-600 hover:text-blue-700 font-medium transition">DMV Verification</a>
+    </div>
+  </nav>
+
+  <header class="bg-gradient-to-br from-blue-900 to-slate-900 text-white pt-16 pb-24 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      
+      <div class="space-y-6">
+        <div class="uppercase tracking-widest text-blue-300 font-semibold text-sm">
+          California Driver Training Program
+        </div>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          Know what to do during a traffic stop.
+        </h1>
+        <p class="text-lg text-slate-300 leading-relaxed max-w-xl">
+          Real-world video training narrated by professional law enforcement officers. Knowing how to safely conduct yourself can make every interaction smoother and safer.
+        </p>
+        <div class="pt-4">
+          <a href="#start" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-md shadow-lg transition transform hover:-translate-y-1">
+            START TRAINING
+          </a>
+        </div>
+      </div>
+      
+      <div class="bg-slate-800 p-2 md:p-3 rounded-2xl shadow-2xl relative lg:ml-auto w-full max-w-lg">
+        <div class="absolute -top-4 -right-4 bg-blue-500 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-md">
+          Training Preview
+        </div>
+        <div class="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden bg-black flex items-center justify-center relative shadow-inner">
+          
+          <video class="w-full h-auto object-cover rounded-xl" controls preload="metadata" poster="https://via.placeholder.com/800x450/1e293b/ffffff.png?text=Video+Player+Placeholder">
+            <source src="SAFE-STOP_California__Program_Briefing.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Why Safe Stop Training Matters</h2>
+      <p class="mt-4 text-slate-600 max-w-3xl mx-auto text-lg">
+        Traffic stops are a routine part of driving. Understanding what officers expect from drivers can help reduce confusion, improve compliance, and support safer outcomes for everyone involved.
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition duration-300">
+        <div class="w-12 h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl mb-6 text-xl shadow-sm">▶</div>
+        <h3 class="text-xl font-bold mb-3 text-slate-900">Real Scenarios</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Learn from real-world examples that show how traffic stops unfold and what drivers should do.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition duration-300">
+        <div class="w-12 h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl mb-6 text-xl shadow-sm">★</div>
+        <h3 class="text-xl font-bold mb-3 text-slate-900">Officer Narration</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Hear directly from law enforcement officers on how drivers are expected to respond.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition duration-300">
+        <div class="w-12 h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl mb-6 text-xl shadow-sm">⏱</div>
+        <h3 class="text-xl font-bold mb-3 text-slate-900">Short Modules</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Complete each highly informative video module efficiently in just 5–10 minutes.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg transition duration-300">
+        <div class="w-12 h-12 bg-blue-50 text-blue-600 flex items-center justify-center rounded-xl mb-6 text-xl shadow-sm">✓</div>
+        <h3 class="text-xl font-bold mb-3 text-slate-900">Improve Safety</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Learn the right behaviors to help keep traffic stops safer and less stressful for everyone.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-100 py-20 px-6 md:px-12 border-y border-slate-200">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-16">How It Works</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-900 text-white text-2xl font-bold rounded-full flex items-center justify-center mx-auto mb-6 shadow-md ring-4 ring-white">1</div>
+          <h3 class="text-xl font-bold mb-3 text-slate-900">Enter License Number</h3>
+          <p class="text-slate-600 px-4">Enter your license or permit number to securely log in and begin the training process.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-900 text-white text-2xl font-bold rounded-full flex items-center justify-center mx-auto mb-6 shadow-md ring-4 ring-white">2</div>
+          <h3 class="text-xl font-bold mb-3 text-slate-900">Complete Training</h3>
+          <p class="text-slate-600 px-4">Watch real-world traffic stop scenarios with narration and practical guidance.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-900 text-white text-2xl font-bold rounded-full flex items-center justify-center mx-auto mb-6 shadow-md ring-4 ring-white">3</div>
+          <h3 class="text-xl font-bold mb-3 text-slate-900">Receive Confirmation</h3>
+          <p class="text-slate-600 px-4">Receive instant confirmation that your training has been completed successfully.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 px-6 md:px-12 max-w-5xl mx-auto" id="portals">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <div id="driver-login" class="bg-white border-2 border-slate-200 rounded-3xl p-10 text-center hover:border-blue-500 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+        <div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-4">Driver Login</h3>
+          <p class="text-slate-600 mb-8">Access your training, resume a video module, or review your completion status.</p>
+        </div>
+        <a href="#" class="block w-full bg-slate-900 hover:bg-blue-900 text-white font-bold py-4 rounded-xl transition">Login as Driver</a>
+      </div>
+      
+      <div id="dmv-verification" class="bg-white border-2 border-slate-200 rounded-3xl p-10 text-center hover:border-blue-500 hover:shadow-xl transition duration-300 flex flex-col justify-between">
+        <div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-4">DMV Verification</h3>
+          <p class="text-slate-600 mb-8">Access training completion records and verification for authorized administrative review.</p>
+        </div>
+        <a href="#" class="block w-full bg-slate-100 hover:bg-slate-200 text-slate-900 border border-slate-300 font-bold py-4 rounded-xl transition">DMV Portal Login</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-slate-900 text-slate-400 py-10 text-center border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <div class="text-xl font-extrabold text-white tracking-wider mb-4 md:mb-0">
+        SAFE<span class="text-red-600">STOP</span>
+      </div>
+      <p class="text-sm">&copy; 2026 SAFE STOP USA. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
